@@ -23,10 +23,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginHorizontal="20dp"
-            android:padding="10dp">
+            android:padding="30dp"
+            >
 
             <LinearLayout
             android:layout_width="match_parent"
@@ -136,7 +137,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingBottom="30dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -158,17 +160,49 @@
 
 
 
+
     </com.google.android.material.card.MaterialCardView>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-25dp"
+        android:elevation="40dp"
+        >
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registration">
+            android:text="Registration"
+            >
         </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you have an account ?"
+            android:textSize="16sp">
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginStart="15dp"
+            android:background="#00ffffff"
+            android:textColor="@drawable/guni_pink_logo">
+
+        </Button>
+
     </LinearLayout>
 
 </LinearLayout>
